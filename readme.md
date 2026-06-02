@@ -4,7 +4,7 @@ An Airbnb-inspired web application where users can explore listings, create thei
 
 # Live Demo
 
-🔗 https://airbnb-clone-5q0f.onrender.com
+🔗 https://wanderlust-satyam-poddar.onrender.com
 
 # Features
 

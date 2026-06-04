@@ -1,6 +1,22 @@
 <%- layout('layouts/boilerplate') -%>
 
-<form method="GET" action="/listings/filter">
+
+
+<button 
+type="button"
+class="filter-btn d-md-none"
+data-bs-toggle="collapse" 
+data-bs-target="#filter-form" 
+aria-expanded="false" 
+aria-controls="filter-form"
+>
+<i class="fa-solid fa-filter"></i><p>Filter</p>
+</button>
+
+<form class="collapse" id="filter-form" method="GET" action="/listings/filter">
+    
+
+
 <div id="filters">
 
 <input type="radio" class="btn-check" name="selected" id="trending" autocomplete="off">
@@ -102,7 +118,7 @@
 </div>
 </div>
 
-<div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1">
+<div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 listing-show-box">
 <% for( let listing of allListings ) { %>
     <a href="/listings/<%= listing._id %>" class="listing-links">
     <div class="card listing-card">

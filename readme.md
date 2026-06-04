@@ -120,7 +120,7 @@ An Airbnb-inspired web application where users can explore listings, create thei
 # Future Improvements
 
 - Wishlist / Favorites feature
-- Advanced search & filters
+- Advanced search
 - Messaging between users
 - Admin dashboard
 - Map integration (Mapbox / Google Maps)

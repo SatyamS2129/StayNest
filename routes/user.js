@@ -9,7 +9,6 @@ const userController = require("../controllers/user.js");
 const listingController = require("../controllers/listing.js");
 
 router.route("/").get(listingController.index);
-
 router
   .route("/signup")
   .get(userController.renderSignupForm)

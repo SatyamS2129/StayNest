@@ -15,7 +15,7 @@ An Airbnb-inspired web application where users can explore listings, create thei
 - Centralized Error Handling
 - MVC Architecture
 - Responsive UI with EJS templates
-- Filters Feature
+- Filters Feature and more
 
 # Tech Stack
 
